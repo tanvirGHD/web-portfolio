@@ -24,10 +24,7 @@
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
-    
-    font-size: 20px;
-    
-
+    font-size: 20px;   
 }
 .section-title{
     font-size: 35px;
@@ -44,6 +41,7 @@
 }
 .text-center{
     text-align: center;
+    margin-top: 50px;
 }
 /* header*/
 .header{
@@ -95,8 +93,8 @@ nav li a {
    margin-bottom: 20px;
 }
 .banner-profile-pic{
-    width: 584px;
-    height: 676px;
+    width: 650px;
+    height: 734px;
 }
 .banner{
     display: flex;
@@ -152,11 +150,18 @@ main section{
 }
 .section-title{
     padding-bottom: 30px;
+    text-align: center;
+    
    
 }
 .section-discription{
+    font-size: 15px;
     padding: 0px 4px;
     margin-bottom: 30px;
+    color: rgb(117, 117, 117);
+}
+.skill-discription{
+    font-size: 15px;
     color: rgb(117, 117, 117);
 }
 /*Card style start*/
@@ -170,11 +175,73 @@ main section{
 .card-content{
     padding: 30px;
     box-shadow: 0px 9px 50px 0px rgba(0, 0, 0, 0.06) ;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .skill-discription{
     padding-bottom: 30px;
 }
 .card-content img ,h3{
     padding-bottom: 25px ;
+}
+/*resue-section-style*/
+.resume-container{
+    display: flex;
+    gap: 20px;   
+}
+.experience-description{
+    font-size: 15px;
+}
+
+.experience, .experience-title, .experience-sub-title, .experience-description{
+    padding: 0px 0px 15px 0px;
+}
+.about-title{
+    font-size: 34px;
+    text-align: center;
+    padding-bottom: 113px;
+}
+.experience-sub-title, .experience-description{
+    color: #757575;
+    font-weight: 400;
+}
+.experience-sub-title{
+    font-weight: 600;
+}
+
+.resume-style-btn {
+    display: flex;
+    align-items: center;
+}
+/*footer style*/
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.social-media-link{
+    gap: 82px;
+}
+.description{
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+}
+.footer-column{
+    width: 50%;
+}
+ footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 6px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer input[type="submit"]{
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FD6E0A;
 }
