@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -11,6 +14,37 @@
 .text-primary{
     color:#FD6E0A;
 }
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    
+
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-discription{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
+.text-center{
+    text-align: center;
+}
 /* header*/
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -20,6 +54,8 @@
     margin-left: 18px;
 
 }
+
+
 /* Nav Style */
 nav{
     display: flex;
@@ -44,31 +80,19 @@ nav li a {
     text-decoration: none;
     font-size: 20px;
 }
-.dark-2{
-    color: #474747;
-}
-.btn-primary{
-    background-color: #FD6E0A;
-    color: white;
-    font-weight: bold;
-    padding: 18px 35px;
-    border: none;
-    border-radius: 5px;
-    
-    font-size: 20px;
-    
 
-}
 /*banner style*/
 .banner-greetings{
    color: rgb(71, 71, 71);
    font-size: 45px;
    font-weight: 600;
+   margin-bottom: 30px;
 }
 .banner-title{
    color: rgb(24, 24, 24);
    font-size: 67px;
    font-weight: 700;
+   margin-bottom: 20px;
 }
 .banner-profile-pic{
     width: 584px;
@@ -81,4 +105,76 @@ nav li a {
 }
 .banner-content{
     max-width: 580px;
+    
+}
+.banner-description{
+    margin-bottom: 30px;
+    
+    
+}
+/*main style*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+/*About Section Start*/
+.about{
+    border-radius: 10px;
+    padding: 131px 151px;
+    text-align: center;
+    
+    margin-bottom: 130px;
+}
+.item-description{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.about secondary-bg{
+    margin-bottom: 130px;
+    
+   
+}
+.second-content{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    
+}
+.section-title{
+    padding-bottom: 30px;
+   
+}
+.section-discription{
+    padding: 0px 4px;
+    margin-bottom: 30px;
+    color: rgb(117, 117, 117);
+}
+/*Card style start*/
+.card-skill-container{
+}
+.card-skill-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.card-content{
+    padding: 30px;
+    box-shadow: 0px 9px 50px 0px rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
+}
+.skill-discription{
+    padding-bottom: 30px;
+}
+.card-content img ,h3{
+    padding-bottom: 25px ;
 }
